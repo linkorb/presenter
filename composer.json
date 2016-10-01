@@ -1,0 +1,23 @@
+{
+    "name": "linkorb/presenter",
+    "description": "Presenter pattern implementation",
+    "homepage": "http://www.github.com/linkorb/presenter",
+    "keywords": ["php", "presenter", "mvp", "linkorb"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "LinkORB Engineering",
+            "email": "engineering@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LinkORB\\Presenter\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
